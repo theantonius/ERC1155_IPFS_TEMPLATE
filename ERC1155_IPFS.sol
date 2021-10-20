@@ -86,6 +86,7 @@ contract ERC1155IPFS is ERC1155Supply, Ownable {
     }
 
     _mint(_initialOwner, _id, _initialSupply, _data);
+    tokenUris[_id] = _uri;
     tokenSupply[_id] = _initialSupply;
     return _id;
   }
