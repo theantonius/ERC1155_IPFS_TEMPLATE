@@ -1,4 +1,21 @@
 // SPDX-License-Identifier: MIT
+/*
+   __                _                     _          
+  / _|              | |                   | |         
+ | |_ ___   ___   __| |_ __ ___   __ _ ___| | ___   _ 
+ |  _/ _ \ / _ \ / _` | '_ ` _ \ / _` / __| |/ / | | |
+ | || (_) | (_) | (_| | | | | | | (_| \__ \   <| |_| |
+ |_|_\___/_\___/ \__,_|_|_|_| |_|\__,_|___/_|\_\\__,_|
+ |  __ \ / __ \   /\   |  __ \                        
+ | |__) | |  | | /  \  | |__) |                       
+ |  ___/| |  | |/ /\ \ |  ___/                        
+ | |    | |__| / ____ \| |                            
+ |_|     \____/_/    \_\_|                            
+
+based on https://github.com/jsmellz/ERC1155_IPFS_TEMPLATE
+Thank you Jaacob!
+*/
+
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
