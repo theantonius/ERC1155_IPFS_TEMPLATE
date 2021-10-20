@@ -7,7 +7,7 @@ import '@openzeppelin/contracts/token/ERC1155/ERC1155.sol';
 import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract ERC1155 is ERC1155Supply, Ownable {
+contract ERC1155Creatable is ERC1155Supply, Ownable {
   using Strings for string;
   using SafeMath for uint256;
 
